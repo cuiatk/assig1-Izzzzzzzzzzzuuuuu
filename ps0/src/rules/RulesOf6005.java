@@ -37,9 +37,26 @@ public class RulesOf6005 {
             boolean citingYourSource, boolean implementationRequired) {
         
         // TODO: Fill in this method, then remove the exception
+    	boolean allowedToUseCodeInQuestionInAssignment = false;
+    	
         
-        throw new RuntimeException("implement me!");
+    	boolean oneCanUseTheCode = false;
+    	
+        if (writtenByYourself==true && availableToOthers==false && writtenAsCourseWork==true && citingYourSource==true && implementationRequired==true)
+         {
+        	
+        	oneCanUseTheCode=true;
+         	
+         	
+         }
+     	
+            return oneCanUseTheCode;
+    	
+ 
+       
+		
     }
+    
     
     /**
      * Main method of the class.
@@ -53,3 +70,34 @@ public class RulesOf6005 {
             RulesOf6005.mayUseCodeInAssignment(true, false, true, true, true));
     }
 }
+
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+     
